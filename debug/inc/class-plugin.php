@@ -8,14 +8,10 @@
 
 namespace Powersdev\Debug;
 
-use Powersdev\Debug\Traits\Singleton;
-
 /**
  * Plugin Class
  */
 class Plugin {
-
-	use Singleton;
 
 	/**
 	 * Class Constructor
