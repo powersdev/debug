@@ -2,6 +2,4 @@
 
 Simple wrapper around `hlavacm/wp-tracy` packaged for easy setup.
 
-Clone in your `mu-plugins` folder and run the following command:
-
-`cp -a wp-debug/* . && rm -rf .git wp-debug Readme.md`
+Download [the latest release](//github.com/powersdev/wp-debug/releases/latest/download/debug.zip) and unzip in your mu-plugins directory.
