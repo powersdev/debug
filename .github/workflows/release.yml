@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Bundle
-        run: zip debug.zip debug debug.php
+        run: zip -r debug.zip debug debug.php
         
       - name: Release
         uses: softprops/action-gh-release@v1
